@@ -1,0 +1,19 @@
+
+
+.header {
+  background: $header-bg;
+  border-bottom: $header-bottom-border;
+  .navbar {
+    padding: $navbar-spacing-y  $navbar-spacing-x;
+  }
+
+  .navbar-brand {
+    cursor: pointer;
+    font-size: $navbar-brand-font-size;
+    font-weight: $navbar-brand-font-weight;
+  }
+  .nav-link {
+    color: $navbar-link-color;
+    font-size: $navbar-link-font-size;
+  }
+}

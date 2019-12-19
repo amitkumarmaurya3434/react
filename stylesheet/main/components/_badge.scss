@@ -1,0 +1,13 @@
+.badge{
+    position: relative;
+    padding: 7px 20px;
+    &+.badge{
+        margin-left: 10px;
+    }
+    .badge-close{
+        position: absolute;
+        right: 6px;
+        top: 3px;
+        color: #fff;
+    }
+}

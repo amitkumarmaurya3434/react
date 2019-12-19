@@ -1,0 +1,64 @@
+$image-folder-name: "../../images/" !default; // '/build-resume/mobile/images/'
+
+$white: #fff !default;
+$black: #000 !default;
+
+
+$gray-100: #fbfcfd !default;
+$gray-200: #dddddd !default;
+$gray-300: #fbfcfd !default;
+$gray-400: #2e2e2e !default; //
+
+
+// Body
+//
+// Settings for the `<body>` element.
+
+$body-color: $gray-200 !default;
+
+// Text color
+
+$text-body: $body-color;
+
+// Fonts
+//
+// Font, line-height, and color for headings
+$font-family-sans-pro: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$font-family-base: $font-family-sans-pro;
+
+$font-size-base: 14px !default; // Assumes the browser default, typically `16px`
+$font-size-md: 18px!default;
+$font-size-lg: 24px !default;
+
+$font-weight-medium: 500 !default;
+$font-weight-bold: 600 !default;
+
+
+$font-weight-base: $font-weight-medium !default;
+$line-height-base: 1.5 !default;
+
+// Define common border radius sizes and more.
+
+$border-radius: 3px !default;
+
+
+
+// Navbar / header
+
+$header-bg: $gray-100!default;
+$header-bottom-border: 2px solid $gray-200 !default;
+
+$navbar-spacing-y: 10px !default;
+$navbar-spacing-x: 0 !default;
+
+$navbar-brand-font-size: 20px !default;
+$navbar-brand-font-weight: 500 !default;
+
+$navbar-link-font-size: 14px !default;
+$navbar-link-color: $gray-400 !default;
+
+// footer
+$footer-bg: $gray-100 !default;
+$footer-border-top: 2px solid $gray-200!default;
+$footer-spacing-y: 10px !default;
+$footer-spacing-x: 0 !default;
